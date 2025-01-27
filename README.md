@@ -25,6 +25,8 @@ Clean grey color palette
 Custom typography using Google Fonts
 Responsive layout for all devices
 Social media integration
+
+
 🚀 Technologies Used
 HTML5
 CSS3
@@ -58,4 +60,5 @@ MIT License © (Haviq]
 🤝 Contact
 Email: hamsworks@gmail.com
 LinkedIn: Hans
-Made with ❤️ by Hans Project
+
+<p align="center">Made with ❤️ by Hans Project</p>
