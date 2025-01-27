@@ -1,4 +1,5 @@
 GreyToon Portfolio 🎨
+
 A modern, sleek portfolio website with elegant animations and a professional grey color scheme.
 
 ✨ Features
@@ -32,6 +33,7 @@ Font Awesome Icons
 Google Fonts
 💻 Setup
 Clone the repository
+
 git clone https://github.com/haviq/greytoon-portfolio.git
 
 Copy
