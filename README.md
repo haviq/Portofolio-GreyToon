@@ -1,8 +1,8 @@
-GreyToon Portfolio 🎨
+##GreyToon Portfolio 🎨
 
 A modern, sleek portfolio website with elegant animations and a professional grey color scheme.
 
-✨ Features
+##✨ Features
 Dynamic Navigation
 
 Smooth scrolling between sections 
@@ -27,13 +27,13 @@ Responsive layout for all devices
 Social media integration
 
 
-🚀 Technologies Used
+##🚀 Technologies Used
 HTML5
 CSS3
 JavaScript
 Font Awesome Icons
 Google Fonts
-💻 Setup
+##💻 Setup
 Clone the repository
 
 git clone https://github.com/haviq/greytoon-portfolio.git
@@ -43,18 +43,18 @@ Copy
 Execute
 
 Open index.html in your browser
-🎯 Usage
+##🎯 Usage
 Customize content in index.html
 Modify styles in style.css
 Adjust animations in sc.js
-📱 Responsive Design
+##📱 Responsive Design
 Desktop optimized
 Tablet friendly
 Mobile responsive
-🔗 Links
+##🔗 Links
 Live Demo: GreyToon Portfolio
 GitHub Repository: github.com/haviq/greytoon-portfolio
-📄 License
+##📄 License
 MIT License © (Haviq]
 
 🤝 Contact
