@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreyToon Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    
+<div class="animated-background">
+    <div class="cube"></div>
+    <div class="cube"></div>
+    <div class="cube"></div>
+    <div class="cube"></div>
+    <div class="cube"></div>
+ </div>
+ 
+    <nav>
+        <div class="logo">GreyToon</div>
+        <ul class="nav-links">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="section active">
+        <div class="content">
+            <div class="home-content">
+                <div class="text-content">
+                    <div class="profile-image">
+                        <img src="youtphoto.jpg" alt="Profile Picture">
+                    </div>
+                    <span class="greeting">I'M</span>
+                    <h1 class="name">John Anderson</h1>
+                    <div class="role-text">
+                        I'm a <span class="highlight">Frontend Developer</span>
+                    </div>
+                    <div class="personal-info">
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>New York, USA</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>contact@johnanderson.com</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+1 234 567 890</span>
+                        </div>
+                    </div>
+                    <div class="cta-buttons">
+                        <a href="#contact" class="btn primary">Let's Talk</a>
+                        <a href="#portfolio" class="btn secondary">View Projects</a>
+                    </div>
+                    <div class="social-icons">
+                        <a href="#" class="social-btn"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-btn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-btn"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-btn"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="about" class="section">
+        <div class="content">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <img src="download.jpg" alt="Profile">
+                <div class="about-text">
+                    <p>Creative developer with passion for design and innovation</p>
+                    <div class="skills">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>React</span>
+                        <span>UI/UX</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="section">
+        <div class="content">
+            <h2>Portfolio</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="project1.jpg" alt="Project 1">
+                    <div class="overlay">
+                        <h3>Project Title</h3>
+                        <p>Web Design</p>
+                    </div>
+                </div>
+                <!-- Add more portfolio items -->
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="content">
+            <h2>Projects</h2>
+            <div class="projects-container">
+                <div class="project-card">
+                    <h3>Project Name</h3>
+                    <p>Project description goes here</p>
+                    <div class="project-links">
+                        <a href="#">Live Demo</a>
+                        <a href="#">Source Code</a>
+                    </div>
+                </div>
+                <!-- Add more project cards -->
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="content">
+            <h2>Contact Me</h2>
+            <form class="contact-form">
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <textarea placeholder="Message"></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+    <script src="sc.js"></script>
+    <footer class="footer">
+        <div class="waves">
+            <div class="wave" id="wave1"></div>
+            <div class="wave" id="wave2"></div>
+            <div class="wave" id="wave3"></div>
+            <div class="wave" id="wave4"></div>
+        </div>
+        <div class="footer-content">
+            <div class="footer-section brand">
+                <h2>GreyToon</h2>
+                <div class="socials">
+                    <a href="#" class="social-hover"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="social-hover"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-hover"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-hover"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-hover"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+            <ul class="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>Made with ❤️ by GreyToon</p>
+            <p>&copy; 2024 GreyToon | All Rights Reserved</p>
+        </div>
+    </footer>
+    
+</body>
+</html>
