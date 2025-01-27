@@ -5,7 +5,7 @@ A modern, sleek portfolio website with elegant animations and a professional gre
 ✨ Features
 Dynamic Navigation
 
-Smooth scrolling between sections
+Smooth scrolling between sections 
 Responsive navbar with active state indicators
 Animated Elements
 
